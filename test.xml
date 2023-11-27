@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My testSuite">
+    <parameter name="username" value="aaaaa"></parameter>
+    <parameter name="a" value="aaaa"></parameter>
+    <test name="test3">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="tests.LoginTests">
+                <methods>
+                    <include name="tests.LoginTests.LoginTestWithCorrectDate"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="test4">
+        <parameter name="browser" value="edge"></parameter>
+        <classes>
+            <class name="tests.LoginTests"></class>
+        </classes>
+    </test>
+</suite>
