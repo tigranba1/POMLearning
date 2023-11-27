@@ -1,10 +1,10 @@
-import org.openqa.selenium.WebDriver;
-import org.testng.Assert;
+package tests;
+
+import org.example.Created_AccountPage;
+import org.example.SignupPage;
+import org.example.Signup_LoginPage;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
-import pages.Created_AccountPage;
-import pages.SignupPage;
-import pages.Signup_LoginPage;
 
 import static utils.StringUtil.generateRandomString;
 

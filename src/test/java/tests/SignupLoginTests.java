@@ -1,6 +1,7 @@
-import org.openqa.selenium.WebDriver;
+package tests;
+
+import org.example.HomePage;
 import org.testng.annotations.Test;
-import pages.HomePage;
 
 public class SignupLoginTests extends BaseTest {
     @Test
